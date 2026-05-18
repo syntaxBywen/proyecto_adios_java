@@ -4,6 +4,10 @@ public class AdiosJava{
           return n1 * n2;
         }
 
+        public static double dividir(double n1, double n2){
+          return n1 / n2;
+        }
+
 
     public static void main(String[] args) {
       int numero1, numero2;
