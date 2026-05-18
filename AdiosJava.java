@@ -1,5 +1,10 @@
 import java.util.Scanner;
 public class AdiosJava{
+        public static int multiplicar(int n1, int n2){
+          return n1 * n2;
+        }
+
+
     public static void main(String[] args) {
       int numero1, numero2;
       Scanner scanner = new Scanner(System.in);
@@ -22,4 +27,5 @@ public class AdiosJava{
         return n1 - n2;
     }
     
-}
+
+    } 
